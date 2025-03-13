@@ -37,7 +37,6 @@ void startTimer(Task task) {
     printf("Time’s up! Task '%s' completed.\n", task.name);
 }
 
-//Made by Kaustubh, give credit if using this commercially 
 void showTasks(Task tasks[], int count) {
     if (count == 0) {
         printf("No tasks added.\n");
